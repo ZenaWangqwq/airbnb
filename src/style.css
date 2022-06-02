@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 550px;
+    font-family: 'Poppins', normal;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    padding:20px 36px;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    max-width: 400px;
+    align-self: center;
+    margin-left: 77px;
+    margin-top: 26px;
+}
+
+.intro-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    /* identical to box height, or 40px */
+    margin-left: 36px;
+    margin-bottom: 16px;
+}
+
+.intro-content {
+    width: 320px;
+    height: 56px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+    color: #222222;
+    margin-top: 0px;
+    margin-left: 36px;
+}
+
+.card {
+    margin-left: 37px;
+    margin-top: 49px;
+}
+
+.pic {
+    width: 176px;
+    height: 235px;
+    border-radius: 9px;
+    margin-bottom: 15px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 12.55px;
+    gap: 1px;
+}
+
+.star {
+    width: 14px;
+}
+
+.rating {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.review-count-country {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #918E9B;
+}
+
+.title {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
+
+.price {
+    font-size: 12px;
+    line-height: 110%;
+    color: #222222;
+}
