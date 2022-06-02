@@ -18,7 +18,9 @@ export default function App() {
         <div>
             <Navbar />
             <Intro />
-            {cardElements}
+            <section className="cards-list">
+                {cardElements}
+            </section>
         </div>
     )
 }

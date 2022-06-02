@@ -53,21 +53,31 @@ nav {
     margin-left: 36px;
 }
 
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 .card {
     margin-left: 37px;
     margin-top: 49px;
+    width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .pic {
-    width: 176px;
-    height: 235px;
+    width: 100%;
     border-radius: 9px;
     margin-bottom: 15px;
 }
 
 .review {
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 12.55px;
     gap: 1px;
@@ -102,4 +112,5 @@ nav {
     font-size: 12px;
     line-height: 110%;
     color: #222222;
+    margin-top: auto;
 }
